@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kwando Letcher</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: #000000;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #191919;
+      padding: 30px;
+      padding-bottom: 10px;
+      border-radius: 3px;
+      color:#999999;
+      border-color: #eee;
+
+   
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      max-height: 400px;
+      max-width: 1500px;
+      background-size: auto auto;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+
+  .navtextcolor {
+    color:#ecb939;
+  }
+
+
+  .tableform {
+    border: 2px;
+    border-color: green;
+  }
+
+  .typeofgoodie {
+    font-size: 25px;
+    border-color: green;
+  }
+
+  .entersaleboxed {
+    border: 1px solid black;
+    height: 67px;
+    width: 175px;
+    top: 20px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px #000;
+    border-color: green;
+  }
+
+  .saleline {
+    border-color: #6dc066;
+  }
+  
+  .saleline1 {
+    border-color: #6dc066;
+    width: 75%;
+  }
+
+
+  .checkbox {
+    border:1px solid black;
+    width: 300px;
+    height: 30px;
+    box-sizing: content-box;
+    padding-top: 7px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding-left: 1px;
+    border-color: green;
+  }
+
+  .blackformline {
+    border-color: #ecb939;
+    width: 50%;
+  }
+
+  .amountsold {
+    font:70px;
+  }
+
+  .submitbtn {
+    box-shadow: 1px 1px 5px black;
+  }
+
+  .textonimg {
+    padding-bottom: 100px;
+  }
+
+  .textonimgbottom {
+    padding-bottom: 100px;
+  }
+
+  .idnumberboxcolor {
+    border-color: #6dc066;
+  }
+
+  .idnumberboxplacement {
+    padding-right:100px;
+  }
+
+  .submitbtn {
+    color:#fff;
+    background-color: #6dc066;
+    padding-right: 50px;
+    padding-left: 50px;
+    box-shadow: 0px 0px 3px #8acc84;
+  }
+
+  .submitbtn:hover {
+    background-color: #579951;
+    color: #fff;
+
+  }
+
+  .giantform {
+    margin:0 auto;
+    padding-left: 300px;
+  }
+
+  .submitbtnplacement {
+    padding-left: 235px; 
+  }
+
+  .left-inner-addon {
+      position:absolute;
+  }
+
+  .left-inner-addon input {
+      padding-left: 10px;    
+  }
+  
+  .left-inner-addon span {
+      position: absolute;
+      padding: 7px 10px;
+      pointer-events: none;
+  }
+
+  .buttons {
+    padding-right: 450px;
+  }
+
+  .submitlogout {
+    padding-left:210px;
+  }
+
+  .movecashright {
+    top: auto;
+  }
+
+  .goodietypebox {
+    border-color: #6dc066;
+  }
+</style>
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navtextcolor">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#" style="color: #ecb939"><b>Kwando Letcher</b></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#" style="color: #ecb939">Home</a></li>
+        <li><a href="#" style="color: #ecb939"></a></li>
+        <li><a href="#" style="color: #ecb939"></a></li>
+        <li><a href="#" style="color: #ecb939"></a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="loginpage.html" style="color: #ecb939"><span class="glyphicon glyphicon-log-out" style="color: #ecb939"></span> LOG IN</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="http://centreforum.org/live/wp-content/uploads/2015/10/backgroundthingy-1000x400.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3 class="textonimg">Kwando Letcher</h3>
+          <p>Your Preferred Accounting Firm</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="http://centreforum.org/live/wp-content/uploads/2015/10/backgroundthingy-1000x400.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3 class="textonimg"></h3>
+          <p></p>
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+  
+<div class="container text-center"> 
+<br>   
+<hr class="saleline">
+  <div class="entersaleboxed container">
+  <h3>Enter Sale</h3><br>
+  </div>
+  
+  <hr class="saleline1">
+<div class="container giantform">
+  <form method="post" action="formdatabase.php" class="form-horizontal">
+    
+      <div class="form-group">
+        <label class="control-label col-xs-3" for="inputIDnumber">ID Number:</label>
+          <div class="col-xs-3">
+        <input type="number" class="form-control idnumberboxcolor input-md" placeholder="ID Number" name="idnumber" required>
+            </div>
+        </div>
+      <br>
+        <div class="form-group">
+          <label for="inputGoodie" class="control-label col-xs-3 goodietypebox">Goodie Type:</label>
+            <div class="col-xs-3">
+              <select style="border-color:#6dc066" class="form-control input-md" name="goodie" required>
+                <option disabled>Select One</option>
+                <option>Oranges</option>
+                <option>Rice</option>
+                <option>Onions</option>
+            </select>
+          </div>
+      </div>
+    <br>
+      <div class="form-group">
+        <label class="control-label col-xs-3" for="inputSold">Amount Sold:</label>
+          <div class="col-xs-3">
+        <input class="form-control input-md idnumberboxcolor" type="number" name="product" placeholder="In G's" required>
+          </div>
+      </div>
+    <br>
+      <div class="form-group">
+        <label class="control-label col-xs-3" for="inputReceived">Cash Received:</label>
+          <div class="col-xs-3">
+            <div>
+              <input class="form-control input-md movecashright idnumberboxcolor" type="number" name="cash" placeholder="0.00" required>
+            </div>
+          </div>
+      </div>
+  <br>
+<center>
+  <div class="buttons">
+    <div class="submitbtnplacement">
+      <button type="button" class="btn submitbtn">Submit</button>
+    </div>
+  <br>
+    
+  </div>
+
+</center>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<footer class="container-fluid text-center">
+  <p style="color:#eee"><u><em>Kwando Letcher</em></u>&nbsp;&copy;</p>
+</footer>
+
+</body>
+</html>
+
+
